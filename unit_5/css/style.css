@@ -13,34 +13,42 @@ body{
 }
 
 #logo{
-	float: left;
-	margin-left: 1.5em;
+	float: center;
+	margin: auto;
+	padding: 1em;
 }
 
 .navlinks{
 	color: grey;
 }
 nav{
-	text-align: right;
+	height: 2em;
+	text-align: center;
 	font-size: 1em;
-	word-spacing: 1.5em;
-	margin-right: 5em;
-	padding-top: 2.5em;
-	padding-bottom: 3.5em;
-	color:white;
+	word-spacing: 3em;
 	letter-spacing: 2px;
 	font-weight: 600;
 	text-transform: uppercase;
-	background-color: #E8C66A;
+	background-color: #E8C66A;*/
     border: 1px black solid;
     padding: 20px;
+}
+nav a {
+	color: #ffffff;
+	display: block;
+	width: 180px;
+	float: left;
+	padding: 10px 0;
+}
+
+nav a:hover {
+	background-color: white;
 }
 
 header {
   	text-align: center;
-  	background-repeat: no-repeat;   
-  	position: relative;        
-  	width: 100%;            
+  	/*background: url("../images/money-coins.jpg");*/
+  	background-repeat: no-repeat;                      
   	height: 590px;       
   	margin:0 auto;
   	background-color: #FFED74;
@@ -48,10 +56,13 @@ header {
     padding: 20px;
 }
 
+#slogan:hover {
+	background-color: white;
+}
 h1{
 	text-align: center;
   	font-size: 3em;
-  	padding-top: 10%;
+  	padding-top: 5%;
   	color: black;
   	line-height: 1.5em;
 }
@@ -73,6 +84,7 @@ h3 {
 }
 
 section {
+  	/*background-image: url("../images/background4.jpg");*/
   	background-size: cover;
   	font-size: 22px;
   	border: 2px;
@@ -122,10 +134,12 @@ li{
 }
 
 #about, #insights{
+	/*background-image: url("../images/background1.jpg");*/
 	background-size: cover;
 }
 
 #work, #upcoming{
+	/*background-image: url("../images/background2.jpg");*/
   	background-size: cover;
 }
 
@@ -139,4 +153,10 @@ footer{
 	background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
+}
+
+#wrapper{
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
 }
