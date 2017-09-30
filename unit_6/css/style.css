@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Libre+Baskerville:700');
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: black;
+	font-size: 16px; /*1em = 16[x*/
+	text-align: center;
+	position: relative;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#logo {
+	float: center;
+	margin: auto;
+	padding: 1em;
+}
+
+.navlinks {
+	color: grey;
+}
+
+nav {
+	height: 2em;
+	text-align: center;
+	font-size: 1em;
+	word-spacing: 3em;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav a {
+	color: #ffffff;
+	display: block;
+	width: 180px;
+	float: left;
+	padding: 10px 0;
+}
+
+nav a:hover {
+	background-color: white;
+}
+
+header {
+  	text-align: center;
+  	background: url("../images/money-coins.jpg");
+  	background-repeat: no-repeat;                      
+  	height: 590px;       
+  	margin:0 auto;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+#slogan:hover {
+	background-color: white;
+}
+
+#slogan {
+	text-align: center;
+	font-size: 25px;
+	font-style:italic;
+	color: black;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+h1 {
+	text-align: center;
+  	font-size: 3em;
+  	padding-top: 5%;
+  	color: black;
+  	line-height: 1.5em;
+}
+
+h2,
+h3,
+h4{
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville', sans-serif;
+	text-align: center;
+}
+
+section {
+  	background-image: url("../images/background4.jpg");
+  	background-size: cover;
+  	font-size: 22px;
+  	border: 2px;
+  	padding: 30px;
+  	line-height: 150%;
+  	color:white;
+  	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color:#322FC6;
+	border-bottom:1px solid black;
+	padding-bottom:2px;
+}
+
+hr {
+	border:none;
+	height:3px;
+	background-color: white;
+	width: 2em;
+	margin: 1em auto;
+}
+
+p {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 1.5em;
+	margin: 0 auto;
+	line-height: 1.5em;
+	max-width: 50ch;
+	font-family: 'Dosis', sans-serif;
+}
+
+ul {
+	text-align: center;
+    list-style-type: none;
+    font-family: 'Dosis', sans-serif;
+}
+
+li {
+	margin-left: 10px;
+	text-align: center;
+}
+
+#about, #insights {
+	background-image: url("../images/background1.jpg");
+	background-size: cover;
+}
+
+.wrapper{
+	width: 95%;
+    margin: auto;
+}
+
+.lifestage{
+	width:16%;
+	margin:0.5%;
+	float:left;
+}
+
+.lifestage img{
+	max-height: 150px;
+	max-width: 150px;
+	display: block;
+	margin:auto;
+}
+
+.lifestage > h3{
+	margin:.5em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#work, #upcoming {
+	background-image: url("../images/background2.jpg");
+  	background-size: cover;
+}
+
+#work {
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#event1, #upcomings {
+	display:block;
+	width:25em;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+}
