@@ -150,6 +150,7 @@ li {
 	width:16%;
 	margin:0.5%;
 	float:left;
+	height:20em;
 }
 
 .lifestage img{
@@ -192,4 +193,14 @@ footer {
 	background-color: black;
     border: 0.1em black solid;
     padding: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		border: 3px solid red;
+	}
+
+	nav a {
+		font-size: 9px;
+	}
 }
